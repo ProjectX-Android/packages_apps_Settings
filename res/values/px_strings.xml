@@ -57,7 +57,7 @@
   <!--Personalization category -->
     <string name="header_category_personalization">Personalization</string>
 
-  <!--cLock -->
+   <!--cLock -->
    <string name="clock">cLock</string>
 
     <!--Recents section -->
@@ -78,5 +78,18 @@
     <string name="recents_show_membar_summary">Show a bar with the device\'s used memory</string>
 
     <string name="ok">OK</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Wakelock Blocker</string>
+    <string name="wakelock_blocker_summary">Block system wakelocks</string>
+    <string name="wakelock_blocker_save">Save</string>
+    <string name="wakelock_list_header">Available wakelocks</string>
+    <string name="wakelock_blocker_reload">Reload</string>
+    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
+    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+
+    <!-- Advanced settings -->
+    <string name="advanced_settings_title">Advanced Settings</string>
+    <string name="advanced_category">Advanced</string>
 </resources>
 
