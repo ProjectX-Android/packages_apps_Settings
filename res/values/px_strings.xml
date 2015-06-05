@@ -17,7 +17,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- About phone screen, CyanHacker version -->
+    <!-- About phone screen, ProjectX version -->
     <string name="px_version_title">ProjectX version</string>
     <string name="px_version_default">Unknown</string>
 
@@ -32,5 +32,10 @@
    <!-- Unaccounted and overcounted battery stats -->
     <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
     <string name="show_unac_and_overcounted_stats_summary">Show in battery statistics unaccounted and over-counted usage.</string>
+
+  <!-- Optimization version -->
+    <string name="opt_version_title">Optimization version</string>
+    <string name="opt_version_default">No optimizations are being used</string>
+
 </resources>
 

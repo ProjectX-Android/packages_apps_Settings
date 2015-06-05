@@ -186,4 +186,10 @@
                 android:summary="@string/sm_flags_default"
                 android:selectable="false" />
 
+        <Preference android:key="opt_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/opt_version_title"
+                android:summary="@string/opt_version_default"
+                android:selectable="false" />
+
 </PreferenceScreen>

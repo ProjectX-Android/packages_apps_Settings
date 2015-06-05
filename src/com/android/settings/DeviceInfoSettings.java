@@ -93,6 +93,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_CM_LICENSE = "cmlicense";
     private static final String KEY_SM_AND = "sm_android";
     private static final String KEY_SM_FLAGS = "sm_flags";
+    private static final String KEY_OPT_VERSION = "opt_version";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -127,6 +128,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 	findPreference(KEY_SM_FLAGS).setEnabled(true);
 	setValueSummary(KEY_SM_AND, "ro.sm.android");
 	setValueSummary(KEY_SM_FLAGS, "ro.sm.flags");
+        findPreference(KEY_OPT_VERSION).setEnabled(true);
+        setValueSummary(KEY_OPT_VERSION, "ro.opt.version");
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);
