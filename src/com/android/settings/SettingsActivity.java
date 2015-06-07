@@ -42,7 +42,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.INetworkManagementService;
 import android.os.Message;
-import android.os.PowerManager;
 import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.os.SystemProperties;
@@ -1182,7 +1181,6 @@ public class SettingsActivity extends Activity
                 android.os.Build.TYPE.equals("eng") || android.os.Build.TYPE.equals("userdebug") || android.os.Build.TYPE.equals("user"));
 
         final UserManager um = (UserManager) getSystemService(Context.USER_SERVICE);
-        final PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
 
         final int size = target.size();
         for (int i = 0; i < size; i++) {
@@ -1263,15 +1261,7 @@ public class SettingsActivity extends Activity
                             UserManager.DISALLOW_DEBUGGING_FEATURES)) {
                         removeTile = true;
                     }
-                } else if (id == R.id.performance_settings) {
-                    final boolean forceHide =
-                            getResources().getBoolean(R.bool.config_hidePerformanceSettings);
-                    if (forceHide ||
-                            !(pm.hasPowerProfiles() || (showDev && !Build.TYPE.equals("user")))) {
-                        removeTile = true;
-                    }
-                }
-
+                } 
                 if (UserHandle.MU_ENABLED && UserHandle.myUserId() != 0
                         && !ArrayUtils.contains(SETTINGS_FOR_RESTRICTED, id)) {
                     removeTile = true;

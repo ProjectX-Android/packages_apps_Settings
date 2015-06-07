@@ -2180,8 +2180,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".cyanogenmod.PerformanceSettings" />
-
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"
