@@ -450,9 +450,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         mAllPrefs.add(mProcessStats);
         mRootAccess = (ListPreference) findPreference(ROOT_ACCESS_KEY);
         mRootAccess.setOnPreferenceChangeListener(this);
-        if (!removeRootOptionsIfRequired()) {
-            mAllPrefs.add(mRootAccess);
-        }
+        mAllPrefs.add(mRootAccess);
 
         mDevelopmentTools = (PreferenceScreen) findPreference(DEVELOPMENT_TOOLS);
         mAllPrefs.add(mDevelopmentTools);
@@ -485,18 +483,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         mAllPrefs.add(pref);
         mResetSwitchPrefs.add(pref);
         return pref;
-    }
-
-    private boolean removeRootOptionsIfRequired() {
-        // user builds don't get root, and eng always gets root
-        if (!(Build.IS_DEBUGGABLE || "eng".equals(Build.TYPE))) {
-            if (mRootAccess != null) {
-                getPreferenceScreen().removePreference(mRootAccess);
-                return true;
-            }
-        }
-
-        return false;
     }
 
     @Override
@@ -733,7 +719,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         resetAdbNotifyOptions();
         resetVerifyAppsOverUsbOptions();
         resetDevelopmentShortcutOptions();
-        resetUpdateRecoveryOptions();
         writeAnimationScaleOption(0, mWindowAnimationScale, null);
         writeAnimationScaleOption(1, mTransitionAnimationScale, null);
         writeAnimationScaleOption(2, mAnimatorDurationScale, null);
@@ -1545,13 +1530,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         SystemProperties.set(UPDATE_RECOVERY_PROPERTY,
                 mUpdateRecovery.isChecked() ? "true" : "false");
         pokeSystemProperties();
-    }
-
-    private void resetUpdateRecoveryOptions() {
-        // User builds should update recovery by default
-        if ("user".equals(Build.TYPE)) {
-            SystemProperties.set(UPDATE_RECOVERY_PROPERTY, "true");
-        }
     }
 
     @Override
