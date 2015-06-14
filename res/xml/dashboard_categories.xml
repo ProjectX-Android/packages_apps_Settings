@@ -254,6 +254,17 @@
                 android:icon="@drawable/ic_settings_accounts"
                 />
 
+        <!-- Google settings -->
+	<!-- TODO: change icon -->
+        <dashboard-tile
+             	android:icon="@drawable/ic_settings_accounts"
+                android:title="@string/Google_settings">
+		<intent					
+			android:action="android.intent.action.MAIN"
+			android:targetClass="com.google.android.gms.app.settings.GoogleSettingsActivity"
+			android:targetPackage="com.google.android.gms" /> 
+	</dashboard-tile>
+
         <!-- CyanogenMod Privacy Settings -->
         <!-- This is the 'real' Privacy items and includes Privacy Guard, Blacklist & WhisperPush -->
         <dashboard-tile
