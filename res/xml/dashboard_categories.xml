@@ -258,7 +258,7 @@
 	<!-- TODO: change icon -->
         <dashboard-tile
              	android:icon="@drawable/ic_settings_accounts"
-                android:title="@string/Google_settings">
+                android:title="@string/google_settings">
 		<intent					
 			android:action="android.intent.action.MAIN"
 			android:targetClass="com.google.android.gms.app.settings.GoogleSettingsActivity"
