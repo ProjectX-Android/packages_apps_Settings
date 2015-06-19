@@ -47,10 +47,5 @@
 
   <!--Google settings -->
     <string name="google_settings">Google settings</string>
-
-  <!-- Better battery stats -->
-    <string name="bbs_title">Power usage statistics</string>
-    <string name="bbs_summary">by Batter Battery Stats</string>
-
 </resources>
 
