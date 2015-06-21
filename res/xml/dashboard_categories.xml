@@ -119,6 +119,15 @@
                 settings:advanced="true"
                 />
 
+        <!-- Recents menu-->
+	<!-- TODO: new icon -->
+        <dashboard-tile
+                android:id="@+id/recents_menu_settings"
+                android:title="@string/recents_menu_title"
+                android:fragment="com.android.settings.px.RecentsMenuSettings"
+                android:icon="@drawable/ic_settings_notification_drawer"
+                />
+
         <!-- Themes -->
         <!-- NOTE: Intent.parseIntent looks for "categories" tag and not "category" -->
         <dashboard-tile

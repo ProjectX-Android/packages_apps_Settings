@@ -21,15 +21,15 @@
     <string name="px_version_title">ProjectX version</string>
     <string name="px_version_default">Unknown</string>
 
-   <!-- GCC version info -->
+    <!-- GCC version info -->
     <string name="sm_android">GCC Android version</string>
     <string name="sm_android_default">Stock</string>
 
-   <!-- GCC build flags info -->
+    <!-- GCC build flags info -->
     <string name="sm_flags">Optimizations</string>
     <string name="sm_flags_default">None</string>
 
-   <!-- Unaccounted and overcounted battery stats -->
+    <!-- Unaccounted and overcounted battery stats -->
     <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
     <string name="show_unac_and_overcounted_stats_summary">Show in battery statistics unaccounted and over-counted usage.</string>
 
@@ -59,5 +59,22 @@
 
   <!--cLock -->
    <string name="clock">cLock</string>
+
+    <!--Recents section -->
+    <string name="recents_menu_title">Recents menu</string>
+
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Clear all recents button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button on recents panel</string>
+    <string name="recents_clear_all_location_title">Clear all recents location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+
+    <string name="recents_show_membar_title">Memory bar</string>
+    <string name="recents_show_membar_summary">Show a bar with the device\'s used memory</string>
 </resources>
 
