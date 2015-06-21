@@ -48,6 +48,11 @@
         android:fragment="com.android.settings.nfc.PaymentSettings" />
 
     <PreferenceScreen
+        android:id="@+id/print_settings"
+        android:title="@string/print_settings"
+        android:fragment="com.android.settings.print.PrintSettingsFragment" />
+
+    <PreferenceScreen
         android:fragment="com.android.settings.TetherSettings"
         android:key="tether_settings"
         android:title="@string/tether_settings_title_all" />
