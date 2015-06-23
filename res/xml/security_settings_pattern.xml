@@ -74,6 +74,14 @@
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary"/>
 
+	<!-- cLock -->
+	<PreferenceScreen
+	    android:title="@string/clock">
+            <intent android:targetPackage="com.cyanogenmod.lockclock" 
+	            android:action="android.intent.action.MAIN" 
+	            android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
+	</PreferenceScreen>
+
         <PreferenceScreen
             android:key="lockscreen_shortcuts_settings"
             android:fragment="com.android.settings.cyanogenmod.LockscreenShortcuts"

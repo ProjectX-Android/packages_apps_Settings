@@ -56,5 +56,8 @@
 
   <!--Personalization category -->
     <string name="header_category_personalization">Personalization</string>
+
+  <!--cLock -->
+   <string name="clock">cLock</string>
 </resources>
 
