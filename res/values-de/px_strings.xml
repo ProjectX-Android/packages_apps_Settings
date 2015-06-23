@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2015 ProjectX
-
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -17,7 +16,73 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- About phone screen, CyanHacker version -->
+    <!-- About phone screen, ProjectX version -->
     <string name="px_version_title">ProjectX Version</string>
     <string name="px_version_default">Unbekannt</string>
+
+    <!-- GCC version info -->
+    <string name="sm_android">GCC Android Version</string>
+    <string name="sm_android_default">Stock</string>
+
+    <!-- GCC build flags info -->
+    <string name="sm_flags">Optimierungen</string>
+    <string name="sm_flags_default">Keine</string>
+
+    <!-- Unaccounted and overcounted battery stats -->
+    <string name="show_unac_and_overcounted_stats_title">Zeige nicht zugeordnete Statistiken</string>
+    <string name="show_unac_and_overcounted_stats_summary">Zeige nicht zugeordnete und ungenaue Batterie Statistiken</string>
+
+    <!-- Optimization version -->
+    <string name="opt_version_title">Optimierungsversion</string>
+    <string name="opt_version_default">Es werden keine Optimierungen verwendet</string>
+
+    <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Scrolling cache</string>
+    <string name="pref_scrollingcache_summary">Schalte scrolling-cache für eine bessere Performance an oder aus</string>
+    <string name="pref_scrollingcache_force_enable">Erzwinge AN</string>
+    <string name="pref_scrollingcache_default_enable">AN</string>
+    <string name="pref_scrollingcache_default_disable">AUS</string>
+    <string name="pref_scrollingcache_force_disable">Erzwinge AUS</string>
+
+    <!-- About categories -->
+    <string name="general_category">Allgemein</string>
+    <string name="software_category">Software</string>
+    <string name="optimization_category">Optimierungen</string>
+    <string name="misc_category">Verschiedenes</string>
+
+    <!--Google settings -->
+    <string name="google_settings">Google Einstellugen</string>
+
+    <!--Personalization category -->
+    <string name="header_category_personalization">Personalisierung</string>
+
+    <!--Recents section -->
+    <string name="recents_menu_title">Multi-Tasking</string>
+
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Beende-alle-Button</string>
+    <string name="show_clear_all_recents_button_summary">Zeige Beende-alle-Button</string>
+    <string name="recents_clear_all_location_title">Button Position</string>
+    <string name="recents_clear_all_location_top_right">Oben rechts</string>
+    <string name="recents_clear_all_location_top_left">Oben links</string>
+    <string name="recents_clear_all_location_top_center">Oben mittig</string>
+    <string name="recents_clear_all_location_bottom_right">Unten rechts</string>
+    <string name="recents_clear_all_location_bottom_left">Unten links</string>
+    <string name="recents_clear_all_location_bottom_center">Unten mittig</string>
+
+    <string name="recents_show_membar_title">RAM-Anzeige</string>
+    <string name="recents_show_membar_summary">Zeige RAM Auslastung</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Wakelock Blocker</string>
+    <string name="wakelock_blocker_summary">Blockiere system wakelocks</string>
+    <string name="wakelock_blocker_save">Speichern</string>
+    <string name="wakelock_list_header">Verfügbare wakelocks</string>
+    <string name="wakelock_blocker_reload">Aktualisiere</string>
+    <string name="wakelock_blocker_warning_title">ACHTUNG</string>
+    <string name="wakelock_blocker_warning">Blockierte wakelocks können zu instabilem Verhalten und Datenverlust führen</string>
+
+    <!-- Advanced settings -->
+    <string name="advanced_settings_title">Erweiterte Einstellungen</string>
+    <string name="advanced_category">Erweitert</string>
 </resources> 
