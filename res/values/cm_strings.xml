@@ -919,6 +919,14 @@
 
     <!-- Performance settings -->
     <string name="performance_settings_title">Performance</string>
+    <!-- Battery : Automatic performance profiles -->
+    <string name="autoperf_title">Enable per-app profiles</string>
+    <string name="autoperf_summary">Automatically choose an appropriate battery mode for various apps</string>
+    <string name="perf_profile_title">Battery mode</string>
+
+    <!-- Development : Force high-end graphics -->
+    <string name="pref_force_highend_gfx_title">Force high-end graphics</string>
+    <string name="pref_force_highend_gfx_summary">Enables high-end visual effects such as transparent status/navigation bar (requires reboot)</string>
 
     <!-- EdgeGesture service -->
     <string name="edge_gesture_service_title">Block gesture touch events</string>
