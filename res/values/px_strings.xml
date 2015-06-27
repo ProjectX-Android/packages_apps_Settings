@@ -33,7 +33,7 @@
     <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
     <string name="show_unac_and_overcounted_stats_summary">Show in battery statistics unaccounted and over-counted usage.</string>
 
-  <!-- Optimization version -->
+    <!-- Optimization version -->
     <string name="opt_version_title">Optimization version</string>
     <string name="opt_version_default">No optimizations are being used</string>
 
@@ -45,7 +45,14 @@
     <string name="pref_scrollingcache_default_disable">Default disable</string>
     <string name="pref_scrollingcache_force_disable">Force disable</string>
 
-  <!--Google settings -->
+    <!-- Google settings -->
     <string name="google_settings">Google settings</string>
+
+    <!-- About categories -->
+    <string name="general_category">General</string>
+    <string name="software_category">Software</string>
+    <string name="optimization_category">Optimization</string>
+    <string name="misc_category">Miscellaneous</string>
+
 </resources>
 
