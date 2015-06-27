@@ -121,7 +121,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_KERNEL_VERSION).setSummary(getFormattedKernelVersion());
         setValueSummary(KEY_MOD_VERSION, "ro.px.versionnumber");
         findPreference(KEY_MOD_VERSION).setEnabled(true);
-        setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());
+        setStringSummary(KEY_KERNEL_VERSION, getKernelVersion());
 	findPreference(KEY_KERNEL_VERSION).setEnabled(true);
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
         findPreference(KEY_SM_AND).setEnabled(true);
@@ -317,10 +317,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             } catch (Exception e) {
                 Log.e(LOG_TAG, "Unable to start activity " + intent.toString());
             }
-        } else if (prefKey.equals(KEY_KERNEL_VERSION)) {
-            setStringSummary(KEY_KERNEL_VERSION, getKernelVersion());
-            return true;
-	}
+        } 
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
@@ -390,7 +387,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         }
     }
 
-    private String getKernelVersion() {
+    public String getKernelVersion() {
     String procVersionStr;
     try {
         procVersionStr = readLine(FILENAME_PROC_VERSION);
