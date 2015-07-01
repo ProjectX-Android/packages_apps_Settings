@@ -1153,6 +1153,9 @@
     <string name="battery_saver_summary">Reduce performance and limit background data</string>
     <string name="battery_saver_summary_unavailable">Not available while charging</string>
 
+    <!-- Battery -->
+    <string name="perf_profile_title">Battery Mode</string>
+
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
     <string name="anonymous_statistics_title">CyanogenMod statistics</string>

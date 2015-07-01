@@ -204,12 +204,6 @@
     <PreferenceCategory
 	android:title="@string/misc_category">
 
-        <!-- Advanced mode -->
-        <com.android.settings.cyanogenmod.SecureSettingSwitchPreference
-            android:key="advanced_mode"
-            android:title="@string/advanced_mode_title"
-            android:summary="@string/advanced_mode_summary" />
-
         <!-- Device Baseband version -->
         <Preference android:key="baseband_version" 
                 style="?android:preferenceInformationStyle"
