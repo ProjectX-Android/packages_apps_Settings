@@ -54,18 +54,18 @@
                 android:summary="@string/device_info_default"
                 android:selectable="false" />
 
-        <!-- Not shown -->
-        <PreferenceScreen
-                android:key="regulatory_info"
-                android:title="@string/regulatory_information">
-            <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
-        </PreferenceScreen>
-
         <!-- Feedback on the device -->
         <!-- Not shown -->
         <PreferenceScreen android:key="device_feedback"
                 android:title="@string/device_feedback">
         </PreferenceScreen>
+
+        <!-- Advanced mode -->
+	<!-- Not shown -->
+        <com.android.settings.cyanogenmod.SecureSettingSwitchPreference
+            android:key="advanced_mode"
+            android:title="@string/advanced_mode_title"
+            android:summary="@string/advanced_mode_summary" />
 
     <!-- General -->
     <PreferenceCategory
@@ -134,6 +134,12 @@
             </PreferenceScreen>
         </PreferenceScreen>
     </PreferenceCategory>
+
+        <PreferenceScreen
+                android:key="regulatory_info"
+                android:title="@string/regulatory_information">
+            <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
+        </PreferenceScreen>
 
     <!-- Software -->
     <PreferenceCategory
