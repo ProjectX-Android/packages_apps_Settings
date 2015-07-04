@@ -53,8 +53,8 @@
     <!--Google settings -->
     <string name="google_settings">Google Einstellugen</string>
 
-    <!--Personalization category -->
-    <string name="header_category_personalization">Personalisierung</string>
+    <!--Personalization -->
+    <string name="personalization">Personalisierung</string>
 
     <!--Recents section -->
     <string name="recents_menu_title">Multi-Tasking</string>
