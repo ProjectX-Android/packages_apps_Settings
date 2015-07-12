@@ -54,8 +54,8 @@
     <string name="optimization_category">Optimization</string>
     <string name="misc_category">Miscellaneous</string>
 
-  <!--Personalization category -->
-    <string name="header_category_personalization">Personalization</string>
+  <!--Personalization -->
+    <string name="personalization">Personalization</string>
 
    <!--cLock -->
    <string name="clock">cLock</string>
