@@ -76,5 +76,7 @@
 
     <string name="recents_show_membar_title">Memory bar</string>
     <string name="recents_show_membar_summary">Show a bar with the device\'s used memory</string>
+
+    <string name="ok">OK</string>
 </resources>
 
