@@ -58,7 +58,7 @@
     <string name="misc_category">Miscellaneous</string>
 
   <!--Personalization -->
-    <string name="personalization">Personalization</string>
+    <string name="personalization_title">Personalization</string>
 
    <!--cLock -->
    <string name="clock">cLock</string>
