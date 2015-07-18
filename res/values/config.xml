@@ -100,4 +100,8 @@
 
     <!-- Enable Advanced mode by default -->
     <bool name="config_advancedSettingsMode">false</bool>
+
+    <!-- Using this on MSIM devices leads to weird states that break telephony's
+    internal state machine. All MSIM devices should probably set this to "true"-->
+    <bool name="config_disablePreferredNetworkSwitch" translatable="false">false</bool>
 </resources>
