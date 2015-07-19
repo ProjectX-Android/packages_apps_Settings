@@ -160,7 +160,7 @@
         <!-- Personalization -->
         <dashboard-tile
                 android:id="@+id/personalization"
-                android:title="@string/personalization"
+                android:title="@string/personalization_title"
                 android:fragment="com.android.settings.px.Personalization"
                 android:icon="@drawable/ic_personalization"
                 />
